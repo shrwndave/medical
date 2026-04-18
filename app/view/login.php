@@ -1,7 +1,7 @@
 <?php
 session_start();
 ?>
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -27,9 +27,8 @@ session_start();
     }
 </style>
     <body dir="ltr" class="body">
-   
     <script type="text/javascript" language="JavaScript">
-         document.getElementById("noScript").style.display = "none";
+        document.getElementById("noScript").style.display = "none";
     </script>
     <div id="fullPage">
         <div id="brandingWrapper" class="float">
@@ -47,7 +46,7 @@ session_start();
         
         
         
-    <div id="loginArea">        
+    <div id="loginArea">
         <div id="loginMessage" class="groupMargin">Log in</div>
 
         <form method="POST" id="loginForm" autocomplete="off" action="/medical/app/controller/login.php" >
@@ -67,7 +66,7 @@ session_start();
                     <input id="passwordInput" name="Password" type="password" tabindex="2" class="text fullWidth"
                         placeholder="Password" autocomplete="off"/>
                         <?php
-                      if (isset($_SESSION['error'])) {
+                    if (isset($_SESSION['error'])) {
     echo "<p style='color:red;'>".$_SESSION['error']."</p>";
     unset($_SESSION['error']);
 }
@@ -80,11 +79,9 @@ session_start();
             </div>
             <input id="optionForms" type="hidden" name="AuthMethod" value="FormsAuthentication"/>
     
-      </div>
+    </div>
 </form>
-       
-
-       
+    
     </div>
 
     </div>
@@ -94,13 +91,11 @@ session_start();
                 <div id="footerPlaceholder"></div>
             </div>
             <footer id="footer">
-               
+            
             </footer>
-        </div>     
+        </div>
     </div>
-   
-
 
     </body>
-</html> 
+</html>
 
