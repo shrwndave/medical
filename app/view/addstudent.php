@@ -42,7 +42,7 @@
 
                     <div class="row">
 
-               
+            
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label>Student Number</label>
@@ -50,7 +50,7 @@
                             </div>
                         </div>
 
-                 
+                
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label>Email</label>
@@ -58,7 +58,7 @@
                             </div>
                         </div>
 
-             
+            
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label>First Name</label>
@@ -66,7 +66,7 @@
                             </div>
                         </div>
 
-                     
+                    
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label>Last Name</label>
@@ -92,11 +92,11 @@
                             <div class="form-group">
                                 <label>Sex</label>
                                 <select name="sex">
-                               
+                            
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
-                                      <option value="female">yes please</option>
-                                      
+                                    <option value="female">yes please</option>
+                                    
                                 </select>
                             </div>
                         </div>
