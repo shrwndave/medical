@@ -7,8 +7,6 @@ require_once '../../config/config.php';
 <head>
     <meta charset="UTF-8">
     <title>Search Student -- Medical Record</title>
-
- 
     <link href="/medical/public/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/medical/public/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
     <link href="/medical/public/css/sb-admin-2.css" rel="stylesheet">
