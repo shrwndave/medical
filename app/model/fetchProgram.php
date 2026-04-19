@@ -13,7 +13,7 @@ $programs = $result->fetch_all(MYSQLI_ASSOC); // tapos ig fetch all as associati
     <li>
     
         <a href="#">
-               <i class="fa fa-graduation-cap fa-fw"></i>
+            <i class="fa fa-graduation-cap fa-fw"></i>
             <?php echo $program['program_code']; ?>
             <span class="fa arrow"></span>
         </a>

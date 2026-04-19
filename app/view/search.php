@@ -78,8 +78,6 @@ require_once '../../config/config.php';
 
 <body>
 <div id="wrapper">
-
- 
     <?php include('nav/leftbar.php'); ?>
 
 
@@ -92,8 +90,6 @@ require_once '../../config/config.php';
 
         <div class="content-wrapper">
             <div class="form-box">
-
-      
                 <form method="GET" action="">
                     <div class="form-group">
                         <div class="input-group">
@@ -104,9 +100,11 @@ require_once '../../config/config.php';
                         </div>
                     </div>
                 </form>
-
-             
-              
+                <div>
+                    <?php
+                        include_once('../model/fetchStudent.php'); # check the file
+                    ?>
+                </div>
             </div>
         </div>
 
